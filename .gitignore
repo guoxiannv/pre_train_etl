@@ -14,3 +14,7 @@ out_rounds/
 .idea/
 .vscode/
 .env
+
+data_processing/preprocess/bg_data/
+data_processing/preprocess/bg_data_select/
+data_processing/preprocess/trans_text_data/
