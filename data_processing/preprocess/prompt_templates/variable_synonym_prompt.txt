@@ -1,0 +1,8 @@
+Generate semantically similar variable names for the following list. Consider coding conventions and context. Output ONLY a JSON array with the new names in the same order. Each name has only one synonym. No other text, no markdown formatting, no code blocks - just the JSON array.
+
+Example:
+Input: ["userCount"]
+Output: ["numberOfUsers"]
+
+Input: ["userCount", "isActive", "fileName"]
+Output: ["numberOfUsers", "enabled", "documentName"]

@@ -1,0 +1,44 @@
+# 忽略大型数据文件，提升IDE性能
+data_processing/code_data/data/
+data_processing/code_data/raw_data/
+data_processing/code_data/cleaned_data/
+data_processing/code_data/sampled_data/
+data_processing/code_data/ts_data/
+
+# 忽略缓存目录
+cache/
+.cache/
+
+# 忽略大型JSON文件
+*.jsonl
+*.json
+
+# 忽略Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略临时文件
+tmp.pkl
+*.tmp
+
+# 忽略日志目录
+filter_logs/
+
+# 忽略node_modules（如果有的话）
+node_modules/
+
+# 忽略虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
