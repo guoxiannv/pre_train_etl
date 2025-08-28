@@ -13,4 +13,4 @@ out_rounds/
 # Ignore IDE configuration directories
 .idea/
 .vscode/
-cache/.env
+.env
